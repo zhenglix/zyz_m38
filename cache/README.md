@@ -1,0 +1,1 @@
+https://cdn.jsdelivr.net/gh/zhenglix/zyz_m38/cache/
