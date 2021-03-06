@@ -1,0 +1,54 @@
+<view class="pyg_index">
+ <!-- 轮播图 开始 -->
+  <view class="index_swiper">
+
+     <swiper autoplay circular>
+      <swiper-item wx:for="{{swiperList}}" wx:key="userId">
+        <navigator url="{{item.navigator_url}}">
+          <image mode="widthFix" src="{{item.picUrl}}"></image>
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 轮播图 结束 -->
+  <!-- 搜索开始 -->
+  <view class="top">
+  <input class="border-1" placeholder="  请输入你想知道的内容..."></input>
+  </view>
+<!-- 搜索结束 -->
+
+  <!-- 导航开始 -->
+  <view class="index_cate">
+    <navigator 
+    wx:for="{{catesList}}"
+    wx:key="name"
+    url="/pages/fenlei/index"
+    open-type="switchTab"
+    >
+    <image mode="widthFix" src="{{item.icon}}" ></image>
+  </navigator>
+  </view>
+  <!-- 导航结束 -->
+  <!-- 推荐开始 -->
+  <view class="neirong">
+    <navigator class="goods_item"
+        wx:for="{{floorList}}"
+        wx:key="id"
+        url="/pages/goods_detail/index?id={{item.id}}"
+        wx:if="{{item.isRecommend == true}}"
+        >
+            <!-- 左侧 图片容器 -->
+            <view class="goods_img_wrap">
+              <image src="{{item.pic}}"></image>
+            </view>
+            <!-- 右侧 商品容器 -->
+            <view class="goods_info_wrap">
+              <view class="title">{{item.title}}</view>
+            </view>
+          </navigator>
+    <image mode="widthFix" src="{{item.picUrl}}"></image>
+    <view></view>
+  </view>
+  <!-- 推荐结束 -->
+</view>
+
