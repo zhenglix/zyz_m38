@@ -488,9 +488,26 @@ function shareTo(types){
     }
 }
 
+const unreadCount = $("#unreadCount").val();
+if(unreadCount>0){
+    _record = 0;
+    var myTitle = document.title;
 
-
-
+    function titleBlink() {
+        _record++;
+        if(_record == 3) { //当变量_record累加到3是，将其赋值为1。相当于无限循环。
+            _record = 1;
+        }
+        if(_record == 1) {
+            document.title = '【  】' + myTitle;
+        }
+        if(_record == 2) {
+            document.title = '【'+unreadCount+'条新消息】' + myTitle;
+        }
+        setTimeout("titleBlink()", 500); //调节时间，单位毫秒。
+    }
+    titleBlink();
+}
 
 
 
