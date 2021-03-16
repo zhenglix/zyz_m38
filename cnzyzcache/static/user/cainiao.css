@@ -1,0 +1,250 @@
+.send-email-btn{
+    width:48%;
+    height:34px;
+    border:1px solid #ccc;
+    cursor:pointer
+}
+
+.user_login_avatar {
+    width: 28px;
+    height: 28px;
+}
+
+.tag-style {
+    display: inline-block;
+    font-size: 13px;
+    /*margin-right: 10px;*/
+    /*margin-top: 8px;*/
+    margin: 6px;
+    cursor: pointer;
+}
+
+.tag-style:hover {
+    background-color: #337AEE;
+}
+
+.tag-style a {
+    color: #fff;
+}
+
+.tag-style a:hover, .tag-style a:visited {
+    text-decoration: none;
+}
+
+.publish-tab-tags {
+    margin-top: 15px;
+}
+
+.publish-tab-tags .select:hover {
+    background-color: forestgreen;
+}
+
+.publish-tag-list {
+    margin-top: 15px;
+    display: none;
+}
+
+.publish-error-nav {
+    display: flex;
+}
+
+.publish-error {
+    margin: auto auto 0 auto;
+    width: 300px;
+    line-height: 32px;
+    text-align: center;
+    padding: 0;
+}
+
+.publish-error span {
+    margin-right: 10px;
+}
+
+.tags-input-div {
+    display: flex;
+}
+
+.input-tag-btn {
+    margin: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.profile-canEdit {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.publish-tag-selected {
+    background-color: forestgreen;
+    cursor: unset;
+}
+
+.publish-tag-remove:hover {
+    color: #db2d20;
+    cursor: pointer;
+}
+
+.tag-text {
+    margin-left: 3px;
+}
+
+.btn-publish {
+    border-radius: 4px;
+    font-size: 14px;
+    float: right;
+    margin: -8px 8px;
+}
+.my-label{
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    background-color: #0c9;
+}
+
+.edit-title{
+    font-weight: 700;
+    color: #4c5157;
+}
+.publish_font{
+    font-size: 14px;
+    color: #606266;
+}
+
+.cainiao-tag{
+    text-decoration-line: none;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    line-height: 16px;
+    padding: 2px 5px;
+    background-color: #99cfff;
+    font-size: 12px;
+    color: #fff !important;
+    border-radius: 4px;
+    margin: 4px;
+}
+.cainiao-tag:hover {
+    background-color: #339dff;
+    color: #fff !important;
+    text-decoration-line: none;
+}
+
+.user_avatar {
+    margin: auto;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.cainiao-comment{
+    margin-bottom: 5px;
+}
+
+.comment-time{
+    float: right;
+}
+
+.question_text {
+    font-size: 13px;
+    color: #999;
+}
+
+.question_description_summary{
+    margin-top: 6px;
+    font-size: 14px;
+    line-height: 22px;
+    white-space: normal;
+    color: #999aaa;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.to-right {
+    float: right;
+}
+
+.two_comment{
+    margin-top: 10px;
+}
+
+.nav-title-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/*
+消息通知样式
+*/
+.reply-list {
+    margin: 0 0;
+    font-size: 14px;
+    padding: 16px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.reply-list .time {
+    float: right;
+}
+/*相关帖子链接*/
+.related_question_list {
+    /*padding-left: 20px;*/
+}
+
+.red{
+    color: red !important;
+}
+/*热门标签*/
+.nav-title-icon {
+    width: 30px;
+    height: 30px;
+}
+/*热门标签列表*/
+.hot-tag-list {
+    word-wrap: break-word;
+}
+
+.automatic-refresh{
+    color: #9b9da2;
+}
+/*富文本编辑器全屏*/
+.editormd-fullscreen{
+    z-index: 10000;
+}
+.profile-type{
+    display: inline-block;
+    height: 20px;
+    line-height: 18px;
+    padding: 0 5px;
+    color: #4d4d4d;
+    font-size: 14px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    vertical-align: top;
+}
+.profile-p{
+    display: block;
+    margin-top: 8px;
+    padding: 0;
+}
+.comment_unactive{
+    cursor:pointer
+}
+.comment_active{
+    color: #0c9;
+}
+.two_comment_avatar{
+    width: 45px;
+    height: 45px;
+}
